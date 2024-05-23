@@ -234,6 +234,60 @@
      .discount-card-con-2{
          justify-content: center;
      }
+
+     /* playback section responsive*/
+     .playback-container{
+        display:flex;
+        flex-direction: column;
+        gap:25px;
+        
+        
+    }
+    
+    .playback-info{
+        width:100%;
+        
+    }
+    .playback-video{
+        width:100%;
+        height: 250px;
+        padding-bottom: 28px;
+       
+    }
+    
+    
+    
+    .text>p{
+        max-width:60%;
+    
+    
+    font-size: 20px;
+    
+    
+    }
+    
+    .playback-info>h3{
+       
+        font-size: 20px;
+        max-width: 55%;
+       
+    }
+    .playback-info>p{
+       
+    font-size: 14px;
+   
+    
+    }
+    
+    .playback-info>ul{
+        
+    
+        font-size: 14px;
+      
+    
+    }
+    
+    
     
 }
 
