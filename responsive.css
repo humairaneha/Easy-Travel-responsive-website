@@ -97,14 +97,14 @@
 
 
     /* mobile responsive card */
-    .why-choose-us>h3{
+    .why-choose-us>h3 , .deals-and-discount>h3{
         
    font-size: 1.2rem;
    margin-bottom: 1rem;
    font-weight: 800;
    
    }
-   .why-choose-us>p{
+   .why-choose-us>p,.deals-and-discount>p{
    font-size: 0.9rem;
    max-width: 90%;
    
@@ -138,6 +138,102 @@
         grid-row: 3/span 1;
         
     }
+
+    /* deals and discount section style */
+
+    .discount-card-container-1,.discount-card-container-2,.discount-card-container-3{
+        width: 100%; 
+        border-radius: 16px;
+        background-image: url("Images/Group\ 39.png");
+     
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        
+        padding:1rem;
+        padding-top: 12rem;
+        
+        
+     }
+   
+     .discount-card{
+         width:100%;
+         height: 50%;
+         border-radius: 16px;
+     border: 2px solid #FFF;
+     
+     background: rgba(255, 255, 255, 0.80);
+     padding: 2rem;
+     backdrop-filter: blur(2.5px)
+     }
+     
+     .icon-info ,.info{
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+       
+     }
+     .time{
+     
+       width: 100%;
+       
+     }
+     .location,.capacity{
+        width:30%;
+     
+        
+     }
+     .icon-info{
+         gap:20px;
+     }
+     
+     .info{
+         gap:5px;
+         align-items: center;
+         color: #5A5A5D;
+         font-size: 14px;
+         font-weight: 400;
+     }
+  
+     .discount-info{
+         text-align: left;
+         margin-top:26px ;
+     }
+     
+     .discount-info>h4{
+         color: #131318;
+         font-size: 1.2rem;
+         font-weight: 800;
+     }
+     
+     .discount-info>p{
+         color: #5A5A5D;
+     
+     max-width: 70%;
+     font-size: 0.9rem;
+     
+     font-weight: 400;
+     margin-top: 1rem;
+     }
+     
+     .discount-info>h5{
+         color: #FF5400;
+     font-size: 1rem;
+     font-weight: 800;
+     margin-top: 1.2rem;
+     
+     }
+     .discount-info>button{
+         margin-top:1.2rem ;
+         font-size: 1rem;
+     }
+     
+     .discount-card-con-2{
+         justify-content: center;
+     }
     
 }
 
