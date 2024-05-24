@@ -1,5 +1,8 @@
 @media only screen and (max-width:600px) {
-
+    .nav-items>i{
+        display: block;
+        margin-right: 10px;
+    }
     .nav-items>ul{
         display: none;
     }
@@ -286,7 +289,83 @@
       
     
     }
+    .subscribe{
+        flex-direction: column;
+    }
+    .newsletter-form{
+        width:100%;
+    }
+
+    .newsletter-img{
+        width:100%;
+    }
+    .newsletter-div{
+        position: absolute;
+        width:50%;
+        border-radius: 16px;
+        background: #FF5400;
+        padding:1.5rem;
+        text-align: center;
+        right:2%;
+        top: 60%;
+        transform: rotate(-25deg);
+        color: #FFF;
     
+    }
+
+    footer{
+        max-width: 100%;
+        margin-top:5%;
+        text-align: center;
+        padding: 6rem ;
+        background: rgba(19, 19, 24, 0.05);
+        
+       
+    
+        
+    }
+    .footer-logo>img{
+        width:2rem;
+    }
+    .footer-logo{
+        margin-bottom: 1rem;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    
+    footer>p{
+        margin-bottom: 1rem;
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #5A5A5D;
+    }
+    .footer-icon{
+        margin-top: 2rem;
+        display: flex;
+        gap:10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer>hr{
+       
+        margin:3rem auto;
+        background: rgba(19, 19, 24, 0.10);
+        max-width: 100%;
+        height: 1px;
+    }
+    
+    .copyright{
+        
+        color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    
+    font-weight: 300;
+    
+    }
     
     
 }
