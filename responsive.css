@@ -18,7 +18,7 @@
     .banner>h1{
         font-size: 1.4rem;
     }
-    .banner-form>input,.banner-form>select{
+    .banner-form>input,.banner-form>select, .banner-form>button{
         width: 100%;
     
     }
@@ -147,7 +147,7 @@
     .discount-card-container-1,.discount-card-container-2,.discount-card-container-3{
         width: 100%; 
         border-radius: 16px;
-        background-image: url("Images/Group\ 39.png");
+        
      
         background-repeat: no-repeat;
         background-position: center;
@@ -161,7 +161,9 @@
         
         
      }
-   
+    .primary-btn,input[type="submit"]{
+        font-size: 1.1rem;
+    }
      .discount-card{
          width:100%;
          height: 50%;
@@ -312,7 +314,11 @@
         color: #FFF;
     
     }
-
+    .newsletter-form>form>input[type="submit"]{
+  
+        font-size: 1.1rem;
+       
+    }
     footer{
         max-width: 100%;
         margin-top:5%;

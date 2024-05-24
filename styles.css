@@ -64,6 +64,9 @@ a:hover{
     color: #FF5400;
 }
 
+a.current{
+    color: #FF5400;
+}
 section{
     margin-top: 5%;}
 .banner{
@@ -106,7 +109,7 @@ section{
     font-weight: 400;
     color: #FFF;
 }
-.banner-form>input,.banner-form>select{
+.banner-form>input,.banner-form>select,.banner-form>button{
     width: 25%;
     height: 3rem;
     border-radius: 0.5rem;
@@ -116,11 +119,17 @@ section{
     color:#13131880;
     font-size: 1rem;
     font-weight: 400;
+    padding:0 1rem;
+    
     
    
     
 }
-
+.primary-btn:hover,.banner-form>button[type="submit"]:hover,.newsletter-form>form>input[type="submit"]:hover{
+    background: #c94300;
+    background-color: #c94300;
+    
+}
 .banner-form>select{
     padding:0px 1rem 0px 1rem;
 }
@@ -128,13 +137,15 @@ section{
 .banner-form>input::placeholder{
    color: #13131880;
    font-size: 1rem;
-   padding-left: 1rem;
+  
    font-weight: 400;
 
 }
 
-.banner-form>input[type="submit"]{
+.banner-form>button[type="submit"]{
     background-color: #FF5400;
+    color:#FFF;
+    transition: background 1s  ;
 }
 
 .banner-form>input[type="submit"],[placeholder]{
@@ -225,6 +236,8 @@ margin-bottom: 1rem;
     border-radius: 0.5rem;
     color: #FFF;
     padding: 0.8rem 2rem;
+    text-align: center;
+    transition: background 1s  ;
 }
 
 .destination{
@@ -436,6 +449,9 @@ background: rgba(233, 68, 68, 0.05);
 .discount-card-container-3,.discount-card-container-1{
     justify-content: flex-end;
 }
+.discount-card-container-2{
+    background-image: url("Images/Group 40.png");
+}
 .discount-card{
     width:53%;
     height: 100%;
@@ -501,10 +517,6 @@ margin-top: 1.2rem;
 }
 .package{
     text-align: center;
-}
-.package>button{
-    
-    font-size: 1.4rem;
 }
 
 /* playback-section style */
@@ -640,12 +652,21 @@ background: rgba(19, 19, 24, 0.05);
 border: 0;
 outline: 0;
 padding:1rem ;
+color:#131318;
+
+}
+.newsletter-form>form>input::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+
 
 }
 .newsletter-form>form>input[type="submit"]{
   
     color: #FFF;
     background: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    transition: background 1s  ;
 }
 .newsletter-img{
     width:60%;
